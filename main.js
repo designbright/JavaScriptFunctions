@@ -1,6 +1,6 @@
-// 1.
-// Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in JavaScript.
-// Then, write and example of using the function.
+//Define a function max() that takes two numbers as arguments and returns the largest of them. 
+//Use the if-then-else construct available in JavaScript.
+//Then, write an example of using the function.
 
 function max(x,y) {
   if (x > y) {
@@ -12,64 +12,8 @@ function max(x,y) {
 }
 console.log(max(10,25));
 
-
-// function max(x, y) {
-//   return Math.max(x, y);
-// }
-//
-// console.log(Math.max);
-
-
-
-// if (max(x > y) === true) || (max(y > x) === true) {
-//   console.log(x);
-// }
-//
-// else {
-//   console.log("false");
-// }
-
-
-
-
-// max (10, 12);
-// console.log("Greatest number is ");
-
-// function greatest(num1, num2){
-//     return Math.max(num1, num2);// Your answer here
-// }
-//
-// if greatest(Math.max(num1, num2) == true {
-//   console.log(Math.max);
-// }
-
-// if max(num1)===true{
-//   console.log(num1);
-// }
-
-// else if (max(num1>num2) === false){
-//     console.log("Number 1 is not greater than number 2");
-//   }
-
-  // let num1 = 15;
-  // let num2 = 0;
-
-//
-//   console.log("The greatest number is" + num1);
-// }
-//
-// else if (max(num1 > num2) === false){
-//   console.log("The greatest number is" + "number2" num2);
-// }
-
-// else if (max(num1 < num2) === false){
-//   console.log (num1);
-// }
-
-
-// 2.
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
-// Then, write and example of using the function.
+// Then, write an example of using the function.
 
 function maxOfThree(x, y, z){
     if (x > y && x > z){
@@ -84,10 +28,8 @@ function maxOfThree(x, y, z){
       return z;
     }
 };
-
 console.log(maxOfThree(10, 25, 20));
 
-// 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
 
@@ -95,30 +37,15 @@ function isVowel(char){
   if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
     return true;
   }
-
   else{
     return false;
   }
 };
-
 console.log(isVowel("o"));
 console.log(isVowel("j"));
 
-// if (isVowel(a) === true) {
-//   console.log("char is a vowel")
-// }
-//
-// else if (isVowel(x) === false){
-//   console.log("char is not a vowel");
-// }
-//
-//  a, e, i, o, u;
-// notVowel = x, y, z;
-
-
-// 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
-// Then, write and example of using the function.
+// Then, write an example of using the function.
 
 function sum(x,y){
   return x + y;
